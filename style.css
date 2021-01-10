@@ -1,0 +1,38 @@
+body {
+
+}
+
+ul {
+      background-color:#ff4500;
+      overflow: hidden;
+      list-style-type: none;
+      position: fixed;
+      top :0px ;
+      right: 0px;
+      left: 0px;
+      margin: 0px;
+      padding: 0px;
+} 
+
+li {
+      float: right;
+      border-right:1px solid #ffff;
+}
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+  color : #333;
+}
+
+p {
+  float: left;
+}
