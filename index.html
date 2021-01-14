@@ -3,17 +3,35 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Home Pizza</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <script src="script.js"></script>
 
       <ul>
-          <p><big>Pizza Home</big></p>
+          <p><img src="Images/pizza-png-19333.png" width="60px" height="33px"></p>
+          <p1>Home Pizza</p1> 
           <li><a href = "index1.html">Log in</a></li>
           <li><a href = "index2.html">Sign up</a></li>
       </ul>
 
+      <div class = "MyDiv0">
+        <h1>Order Here</h1>
+          <br><br>
+        <form method="get" action="fee.html">
+          <label for="pizza"><p1>Pizza(Large , Extra):</p1></label><br>
+          <input type="text" id="pizza" name="pizza" title = "all must be lowercase" pattern="[a-z]{1,5}" required><br>
+          <label for="Topping">Topping</label><br>
+          <input type="number" id="Topping" name="Topping" min = "0" max = "4"><br><br>
+            <div id = "line">
+          <label for="Postal"><p1>Postal Code:</p1></label><br>
+          <input type="text" id="Postal" name="Postal"  required><br>
+          <label for="Adress"><p1>Adress:</p1></label><br>
+          <input type="text" id="Adress" name="Adress" required><br><br>
+            <div id = "line"><br>
+          <input type="submit" class="mybutton" value="check out" onclick="MyFunction()">
+        </form>
+      </div>
+      <script src="script.js"></script>
   </body>
 </html>
